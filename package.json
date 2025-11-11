@@ -11,6 +11,8 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"dotenv": "^17.2.3",
+		"openai": "^6.8.1",
 		"readline-sync": "^1.4.10"
 	},
 	"devDependencies": {
