@@ -2,7 +2,6 @@ import * as readlineSync from "readline-sync";
 import OpenAI from "openai";
 import "dotenv/config";
 
-console.log(process.stdout.write("Hello"));
 type Cell = string | number;
 const board: Cell[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const winningConditions: [number, number, number][] = [
